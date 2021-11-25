@@ -15,15 +15,15 @@
 
 	<script type="template" class="carTemplate">
         <ul>
-            {{#each color}}
+            {{#each model}}
                 <li>{{this}}</li>
             {{/each}}    
         </ul>
     </script>
 	<script type="template" class="carModelTemplate">
         <ul>
-            {{#each color}}
-                <li>{{this.model}} {{this.color}}</li>
+            {{#each model}}
+                <li>{{this.make}} {{this.model}} {{this.color}}</li>
             {{/each}}    
         </ul>
     </script>
